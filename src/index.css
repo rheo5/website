@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Add site defaults */
+html { scroll-behavior: smooth; }
+:root {
+  --max-w-site: 48rem;
+}
+
+/* Optional small typographic polish */
+.prose a { text-decoration: underline; text-underline-offset: 3px; }
