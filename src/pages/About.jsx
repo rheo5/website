@@ -16,7 +16,8 @@ export default function About(){
             <div className="mt-2 flex flex-wrap gap-4">
               {["img1.png", "img2.png", "img3.png", "img4.png"].map((img, idx) => (
                 <img
-                  src={`/src/assets/pottery/${img}`}
+                  key={idx}
+                  src={`/pottery/${img}`}
                   alt={`Pottery piece ${idx + 1}`}
                   className="w-full max-w-[120px] rounded shadow"
                 />
