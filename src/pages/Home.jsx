@@ -15,9 +15,9 @@ export default function Home(){
           </p>
 
           <div className="flex gap-4 text-sm mt-10 justify-end">
-            <a href="https://twitter.com" className="underline">Linkedin</a>
-            <a href="https://www.are.na" className="underline">Github</a>
-            <a href="https://www.are.na" className="underline">Email</a>
+            <a href="https://www.linkedin.com/in/rachel-heo/" className="underline">Linkedin</a>
+            <a href="https://github.com/rheo5" className="underline">Github</a>
+            <a href="mailto:rheo@uwaterloo.ca" className="underline">Email</a>
           </div>
         </div>
       </main>
